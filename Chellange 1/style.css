@@ -52,7 +52,7 @@ body {
 font-family: 'Titillium Web', sans-serif;
 }
 body  h1{
-	font-size:32px;
+	font-size:30px;
 	 text-shadow: 2px 2px black;
 	 margin: 20px;
 	 color:white;
@@ -90,7 +90,7 @@ textarea
 	
 }
 textarea{
-	height:230px;
+	height:220px;
 }
 .register{
 background-color:#f4f4f4;
@@ -138,9 +138,15 @@ margin-left:80px;
 	margin: 10px 20px;
 }
 .radio{
-display:none;
+visibility:hidden;
 	width:10px;
 	text-align:left;
+}
+.img{
+	z-index:5;
+	margin-left:-270px;
+	margin-right:10px;
+	margin-bottom:-5px;
 }
 .buttonM{
 	background-color:#92cf2a; 
