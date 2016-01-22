@@ -44,7 +44,7 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border-spacing: 0px;
 }
 
 
@@ -65,7 +65,7 @@ body  h1{
 	background-repeat:no-repeat;
 }
 .topLogo{
-	opacity:0.5;
+	opacity:0.3;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -75,8 +75,7 @@ body  h1{
 	margin-left:70px;
 	width:40%;
 	float:left;
-	border-radius:5px;
-	
+	border-radius:5px;	
 }
 
 .left input,
@@ -87,7 +86,7 @@ textarea,select
 	margin: 0 auto;
 	background-color:#f6f6f6;
 	border:1px solid #c6c6c6;
-	padding:13 45;
+	padding:13px 45px;
 	border-radius:5px;
 	font-family:'Titillium Web', sans-serif;
 	font-size:13px;
@@ -105,7 +104,6 @@ border: 20px solid rgba(0,0,0,0.3);
 
 }
 .register input,
-.register label,
 textarea,select,
 button{
 	margin: 10px 20px;
@@ -134,7 +132,7 @@ margin-left:80px;
 	margin: 0 auto;
 	background-color:#f6f6f6;
 	border:1px solid #c6c6c6;
-	padding:15 45;
+	padding:15px 45px;
 	border-radius:5px;
 	color:#afafaf;
 }
@@ -142,15 +140,10 @@ margin-left:80px;
 	margin: 10px 20px;
 }
 .radio{
-visibility:hidden;
-	width:10px;
-	text-align:left;
+	visibility:hidden;	
 }
 .img{
-	z-index:5;
-	margin-left:-270px;
-	margin-right:10px;
-	margin-bottom:-5px;
+	margin: 0px 10px -5px -270px;	
 }
 .buttonM{
 	background-color:#92cf2a; 
@@ -163,11 +156,9 @@ visibility:hidden;
 }
 .user{
 	background:url("Images/user.png") no-repeat 10px 10px ;
-
 }
 .password{
 	background: url("Images/password.png") no-repeat 10px 10px;
-	
 }
 .email{
 	background: url("Images/email.png") no-repeat 10px 15px;
