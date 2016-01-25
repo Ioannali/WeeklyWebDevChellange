@@ -1,0 +1,73 @@
+
+body{
+font-family: 'Raleway', sans-serif;	
+}
+.top{
+	/*background:url("Minimalistic-Vibrant-Food-Blog-Template-Free-PSD1.png");*/
+	background:url("Images/Home-bg.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:900px;
+	
+}
+
+.navbar > .container .navbar-brand{
+	margin-left:60px;
+}
+.logo{
+	font-family: 'Pacifico', cursive;
+	font-size:52px;
+	display:block;
+margin-left:40px;
+}
+.navbar-default{
+	background-color:transparent;
+	background-image:none;
+	box-shadow:none;
+border:none;
+margin-top:40px;
+}
+
+.navbar-right {
+	margin-right:40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:800;
+	text-transform:uppercase;
+}
+.navbar-default .navbar-nav > .active > a:focus,.navbar-default .navbar-nav > .active > a:hover,.navbar-default .navbar-nav > .active > a {
+	background-image: none;
+	box-shadow: none;
+	background-color: transparent;
+
+}
+.navbar-default .navbar-nav > .active > a:focus span,.navbar-default .navbar-nav > .active > a:hover span,.navbar-default .navbar-nav > .active > a span {
+	border-top: 3px solid #ff6033;
+padding-top:4px;
+}
+.left{
+	margin-top:300px;
+	margin-left:60px;
+	font-family: 'Raleway', sans-serif;
+}
+.left h1{
+	font-weight:900;
+	font-size: 50px;
+	
+}
+.left span{
+	font-weight:300;
+}
+.button{
+	background-color:#ff6033;
+	color:white;
+	margin-top:30px;
+	margin-left:60px;
+	border-radius:0px;
+	-webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+}
+.button:hover,
+.button:visited{
+	color:white;
+}
