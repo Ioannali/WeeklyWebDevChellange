@@ -52,17 +52,18 @@ padding-top:4px;
 
 .affix{
 	margin-top:10px;
-	background-color:white;
 }
 .left{
 	margin-top:300px;
 	margin-left:60px;
 	font-family: 'Raleway', sans-serif;
 }
-.left h1{
+.h1{
 	font-weight:900;
-	font-size: 50px;
-	
+	font-size: 60px;	
+}
+.h1-margin{
+	margin-top:300px;
 }
 .left span{
 	font-weight:300;
@@ -80,4 +81,32 @@ box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
 .button:hover,
 .button:visited{
 	color:white;
+}
+#about{
+	background-image: linear-gradient( to right, #00b0b0, #00b4b4);
+	color:white;
+}
+.about-left{
+	background:url("Images/plate.png");
+	background-repeat:no-repeat;
+	margin-left:30px;
+	height:700px;
+}
+.about-right{
+	margin-top:200px;
+}
+#services{
+	background-color:#70bfff;
+	color:white;
+}
+.services-right{
+	background:url("Images/tomato.png");
+	background-repeat:no-repeat;
+	height:700px;
+	letter-spacing:1px;
+
+}
+.services-left{
+	margin-left:60px;
+	margin-top: 170px;
 }
