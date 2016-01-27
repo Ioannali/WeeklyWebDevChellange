@@ -1,0 +1,257 @@
+
+body{
+font-family: 'Raleway', sans-serif;	
+position:relative;
+margin:0 0;
+}
+.top{
+	/*background:url("Minimalistic-Vibrant-Food-Blog-Template-Free-PSD1.png");*/
+	background:url("Images/Home-bg.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:900px;
+	
+}
+
+.navbar > .container .navbar-brand{
+	margin-left:60px;
+}
+.logo{
+	font-family: 'Pacifico', cursive;
+	font-size:52px;
+	display:block;
+margin-left:40px;
+}
+.navbar-default{
+	background-color:transparent;
+	background-image:none;
+	box-shadow:none;
+border:none;
+margin-top:40px;
+}
+
+.navbar-right {
+	margin-right:40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:800;
+	text-transform:uppercase;
+}
+.navbar-default .navbar-nav > .active > a:focus,.navbar-default .navbar-nav > .active > a:hover,.navbar-default .navbar-nav > .active > a {
+	background-image: none;
+	box-shadow: none;
+	background-color: transparent;
+
+}
+.navbar-default .navbar-nav > .active > a:focus span,.navbar-default .navbar-nav > .active > a:hover span,.navbar-default .navbar-nav > .active > a span {
+	border-top: 3px solid #ff6033;
+padding-top:4px;
+}
+.affix-top{
+	position:fixed;
+}
+
+.affix{
+	margin-top:10px;
+}
+.left{
+	margin-top:300px;
+	margin-left:50px;
+	font-family: 'Raleway', sans-serif;
+}
+.h1{
+	font-weight:700;
+	font-size: 65px;	
+}
+.h1-margin{
+	margin-top:50%;
+}
+#home h1{
+	font-weight:900;
+	font-size: 65px;
+}
+.left span{
+	font-weight:300;
+}
+#home button{
+	background-color:#ff6033;
+	color:white;
+	margin-top:30px;
+	margin-left:60px;	
+}
+.button{
+	border-radius:0px;
+	-webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+}
+.button:hover,
+.button:visited{
+	color:white;
+}
+#about{
+	background-image: linear-gradient( to right, #00b0b0, #00b4b4);
+	color:white;
+}
+.about-left{
+	background:url("Images/plate.png");
+	background-repeat:no-repeat;
+	margin-left:30px;
+	height:700px;
+}
+.about-right{
+	margin-top:200px;
+}
+#services{
+	background-color:#70bfff;
+	color:white;
+}
+
+#services button{
+	padding:0px 0px;
+	margin-bottom:20px;
+}
+#services button:hover{
+	box-shadow:none;
+}
+.services-right{
+	background:url("Images/tomato.png");
+	background-repeat:no-repeat;
+	height:700px;
+	letter-spacing:1px;
+
+}
+.services-left{
+	margin-top: 10%;
+	
+}
+#gallery{
+	background-color: #ffe92f;
+	text-align:center;
+	padding-top:100px;
+}
+
+#gallery button{
+	color:white;
+	background-color:#5585a2;
+	margin-top:30px;
+	margin-bottom:120px;	
+}
+.gallery-left,
+.gallery-right{
+	margin-bottom: 40px;
+	margin-top:50px;
+}
+
+#subscribe{
+background:url("Images/subscribe-bg.png") no-repeat;
+background-size:cover;	
+height:500px;
+
+}
+.subscribe-left{
+	margin-top:140px;
+	margin-left:10px;	
+}
+#subscribe h2{
+	font-weight:700;
+	font-size:30px;
+}
+#subscribe button{
+	background-color:#96b92c;
+	margin-left:30px;
+	color:white;
+}
+#subscribe input{
+	border: solid 1px black;
+	 padding: 10px;
+	 width:70%;
+}
+#blog{
+	background-color: #b07cf7;
+	text-align:center;
+	padding-top:100px;
+	color:white;
+}
+.blog{
+	margin-bottom:50px;
+}
+#blog button{
+	color:white;
+	background-color:#f72b3b;
+	margin-top:50px;
+	margin-bottom:120px;	
+}
+#contact{
+	background:url("Images/contact-bg.png") no-repeat;
+	background-size:cover;	
+	padding-top:100px;
+	height:850px;
+}
+.contact{
+	text-align:center;
+}
+.contact-left{
+	margin-top:50px;
+	margin-left:30px;
+}
+.input{
+	background-color:rgba(0,196,196,0.5);
+	color:white;
+	font-weight:700;
+	margin-bottom:30px;
+}
+.input:focus{
+	background-color:rgb(0,196,196)
+}
+/* here I've changed color of placeholders */
+.input::-webkit-input-placeholder {
+    color: white;
+	font-weight:300;
+}
+.input:-moz-placeholder {
+    /* FF 4-18 */
+     color: white;
+	 font-weight:300;
+}
+.input::-moz-placeholder {
+    /* FF 19+ */
+     color: white;
+	 font-weight:300;
+}
+.input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+	font-weight:300;
+}
+
+textarea.form-control{
+	height:250px;
+	width:100%;
+}
+
+.contact-right{
+margin-top:50px;	
+}
+.capital{
+	font-weight:700;
+	text-align:left;
+	line-height:30px;
+}
+#footer{
+	background-color:black;
+	color:white;
+	height:90px;
+}
+.footer{
+	padding:30px;
+}
+.logo-small{
+	text-align:center;
+}
+.red{
+	color:#ff2b58;
+	font-weight:700;
+}
+.right{
+	text-align:right;
+}
