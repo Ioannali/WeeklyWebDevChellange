@@ -1,0 +1,50 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+ul{
+float: right;
+}
+ul li {
+text-transform: uppercase;
+list-style-type: none;
+text-decoration: none;
+display: inline-block;
+margin-left: 25px;
+}
+ul li a{
+text-decoration: none;
+color: black;
+}
+.top::before{
+  content: "";
+  background-image: url("../images/background-top.png");
+  background-repeat: no-repeat;
+   filter: brightness(0.30);
+ -webkit-filter: brightness(0.20);
+ position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 530px;
+}
+.top{
+z-index: 0;
+text-align: center;
+color:white;
+  height: 530px;
+}
+.top-text {
+padding-top: 50px;
+}
+.top-text> h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.button{
+background-color: #7cc576;
+color: white;
+border-radius:30px;
+padding:1%;
+margin-top: 3%;
+}

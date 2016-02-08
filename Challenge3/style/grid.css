@@ -1,0 +1,77 @@
+/*  SECTIONS  */
+.row {
+	clear: both;
+	padding: 2%;
+	margin-bottom: 4%;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 0.2%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWELVE  */
+.col-12 {
+	width: 100%;
+}
+
+.col-11 {
+  	width: 91.65%;
+}
+.col-10 {
+  	width: 83.3%;
+}
+
+.col-9{
+  	width: 74.95%;
+}
+
+.col-8 {
+  	width: 66.6%;
+}
+
+.col-7 {
+  	width: 58.25%;
+}
+
+.col-6 {
+  	width: 49.9%;
+}
+
+.col-5 {
+  	width: 41.55%;
+}
+
+.col-4 {
+  	width: 33.2%;
+}
+
+.col-3 {
+  	width: 24.85%;
+}
+
+.col-2{
+  	width: 16.5%;
+}
+
+.col-1 {
+  	width: 8.15%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+
+    .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4,  .col-3, .col-2, .col-1,  {
+	width: 100%;
+	}
+}
