@@ -91,3 +91,14 @@ ol{
 .green{
   color: #7cc576;
 }
+
+.latest-left{
+  text-align: left;
+  margin-left: 5%;
+}
+.latest-right{
+  background-image: url("../images/tablet.png");
+  background-repeat: no-repeat;
+  margin-left: 3.5%;
+    height: 600px;
+}
