@@ -50,7 +50,7 @@ border-radius:30px;
 padding:1%;
 margin-top: 3%;
 }
-.content-top{
+.content{
   height: 80%;
   padding-top: 30px;
   text-align: center;
@@ -78,7 +78,7 @@ margin-top: 3%;
 }
 ol{
   list-style: none;
-  line-height: 2em;
+  line-height: 1.5em;
   padding-left: 0px;
 }
 .relax-left{
@@ -91,14 +91,92 @@ ol{
 .green{
   color: #7cc576;
 }
-
+.latest{
+  height: 800px;
+}
 .latest-left{
   text-align: left;
   margin-left: 5%;
 }
+
 .latest-right{
   background-image: url("../images/tablet.png");
   background-repeat: no-repeat;
   margin-left: 3.5%;
     height: 600px;
+}
+.inline{
+  float: left;
+
+}
+.culture{
+  background-color:#f9f9f9;
+  height: 500px;
+}
+.clients{
+height: 800px;
+}
+.client1{
+  border-radius: 50%;
+}
+.client2{
+  background-color:#f9f9f9;
+}
+.triangle-isosceles.left::after {
+    border-color: transparent #f9f9f9;
+    border-width: 10px 50px 10px 0;
+    bottom: auto;
+    left: -50px;
+    top: 16px;
+}
+.triangle-isosceles::after {
+    border-color: #f9f9f9 transparent;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    bottom: -15px;
+    content: "";
+    display: block;
+    left: 50px;
+    position: absolute;
+    width: 0;
+}
+.triangle-isosceles.left {
+    background: #f9f9f9 none repeat scroll 0 0;
+    margin-left: 50px;
+}
+.triangle-isosceles {
+
+    border-radius: 10px;
+    color: #000;
+    margin: 1em 0 3em;
+    padding: 15px;
+    position: relative;
+}
+.triangle-isosceles.right::after {
+    border-color: transparent #f9f9f9;
+    border-width: 10px 0 10px 50px;
+    bottom: auto;
+    left: auto;
+    right: -50px;
+    top: 16px;
+}
+
+.triangle-isosceles.right {
+    background: #f9f9f9 none repeat scroll 0 0;
+    margin-right: 50px;
+}
+.subscribe{
+  background-color: #7cc576;
+  color:white;
+  height: 200px;
+}
+.btn-contact{
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.button:hover {
+      padding: 12px;
+    }
+    .buttob:active {
+  color:#f00;
 }
