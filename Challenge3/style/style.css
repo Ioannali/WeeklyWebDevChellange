@@ -50,6 +50,10 @@ border-radius:30px;
 padding:1%;
 margin-top: 3%;
 }
+.button:hover{
+background-color: white;
+color:black;
+}
 .content{
   height: 80%;
   padding-top: 30px;
@@ -90,6 +94,9 @@ ol{
 }
 .green{
   color: #7cc576;
+}
+.hover:hover{
+  color:black;
 }
 .latest{
   height: 800px;
@@ -174,17 +181,17 @@ height: 800px;
   border: 2px solid white;
   border-radius: 5px;
 }
-.button:hover {
-      padding: 12px;
+.btn-contact:hover {
+   color:#7cc576;
+   background-color:white;
     }
 
-.test{
+.line{
     position: relative;
     z-index: 1;
 }
 
-.test:before,
-.test:after
+.line:after
  {
     border-top: 3px solid #777777;
     content:"";
@@ -193,4 +200,13 @@ height: 800px;
     top: 15%; left: 70%; right: 0; bottom: 0;
     width: 60%;
     z-index: -1;
+}
+.logos{
+  padding-top: 30px;
+  text-align: center;
+}
+.contact{
+  color:white;
+  background-color: black;
+  height: 600px;
 }
