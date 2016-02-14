@@ -208,5 +208,26 @@ height: 800px;
 .contact{
   color:white;
   background-color: black;
-  height: 600px;
+  height: 300px;
+  text-align: center;
+
+}
+.left{
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+}
+
+p.icon {
+position: relative;
+padding-left:30px;
+}
+.awsome {
+position: absolute;
+top: 5px;
+left: 0;
+}
+.mobile{
+  position: absolute;
+  top: 0px;
+
 }
