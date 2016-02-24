@@ -3,13 +3,16 @@
 	clear: both;
 	padding: 2%;
 	margin-bottom: 4%;
+
+
 }
 
 /*  COLUMN SETUP  */
-.col {
+.col {o
 	display: block;
 	float:left;
 	margin: 1% 0 1% 0.2%;
+
 }
 .col:first-child { margin-left: 0; }
 
