@@ -241,62 +241,15 @@ left: 0;
 .footer{
   margin-top: 0px;
   padding-top: 0px;
-  height: 500px;
+  height: 50px;
 
 }
 .footer-in{
   text-align: right;
 }
 
-@media (min-width: 992px){
+@media (max-width: 992px){
 
-  .content{
-   height: 300px;
-    padding-top: 20px;
-    text-align: center;
-  }
-
-  .relax-right{
-      height: 450px;
-      color: white;
-  }
-  .relax-left{
-      height: 450px;
-  }
-
-  .culture{
-  height: 350px;
-  }
-  .clients{
-height:500px;
-  }
-  .subscribe{
-  height: 200px;
-  }
-  .logos{
-padding-bottom: 50px;
-  }
-  .contact{
-    height: 350px;
-  }
-  .left{
-    text-align: left;
-    font-family: 'Roboto Slab', serif;
-  }
-
-  .footer{
-    margin: 0px 0px 0px 30px;
-    padding: 0px;
-    height: 50px;
-  }
-  .footer-in{
-    text-align: right;
-    margin: 0px;
-    padding: 0px;
-  }
-
-@media (min-width: 768px){
-  
   .content{
    height: 300px;
     padding-top: 20px;
@@ -342,4 +295,205 @@ padding-bottom: 50px;
     padding: 0px;
   }
 }
+@media (max-width: 768px){
+
+  .content{
+   height: 300px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .relax-right{
+      height: 450px;
+      color: white;
+  }
+  .relax-left{
+      height: 450px;
+  }
+
+  .culture{
+  height: 350px;
+  }
+  .clients{
+height:500px;
+  }
+  .subscribe{
+  height: 200px;
+  }
+  .logos{
+padding-bottom: 50px;
+  }
+  .contact{
+    height: 350px;
+  }
+  .left{
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .footer{
+    margin: 0px 0px 0px 30px;
+    padding: 0px;
+    height: 50px;
+  }
+  .footer-in{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media (max-width:480px){
+
+
+  .nav{
+  color: white;
+background-color: red;
+  }
+  ul{
+
+  }
+  ul li {
+
+  display:block;
+
+
+  }
+  ul li a{
+  text-decoration: none;
+  color:white;
+  background-color: red;
+  }
+
+  .top-text> h1{
+      font-size: 40px;
+
+  }
+  .button{
+
+  margin-top: 5%;
+  }
+
+  .relax-right{
+    background-image: url("../images/background-middle.png");
+    background-repeat: no-repeat;
+    color: white;
+    height: 450px;
+
+  }
+  .relax-right button{
+    font-size: 15px;
+    padding: 3%;
+  }
+  .sub-relax-right{
+    padding-left:5%;
+    padding-top: 5%;
+  }
+  .sub-relax-right h1{
+    font-size: 28px;
+  }
+
+  .relax-left{
+  display:none;
+  }
+
+  .latest-left{
+    text-align: left;
+    margin-left: 5%;
+    height: 600px;
+  }
+  .latest-right{
+  display:none;
+  }
+
+  .culture{
+  height: 900px;
+
+  }
+    .clients{
+  height: 550px;
+  text-align: center;
+  }
+  .client1{
+    border-radius: 50%;
+  }
+  .client2{
+    background-color:#f9f9f9;
+  }
+  .triangle-isosceles.left::after {
+      border-color: transparent #f9f9f9;
+      border-width: 10px 50px 10px 0;
+      bottom: auto;
+      left: -50px;
+      top: 16px;
+  }
+  .triangle-isosceles::after {
+      border-color: #f9f9f9 transparent;
+      border-style: solid;
+      border-width: 15px 15px 0;
+      bottom: -15px;
+      content: "";
+      display: block;
+      left: 50px;
+      position: absolute;
+      width: 0;
+  }
+  .triangle-isosceles.left {
+      background: #f9f9f9 none repeat scroll 0 0;
+      margin-left: 50px;
+  }
+  .triangle-isosceles {
+
+      border-radius: 10px;
+      color: #000;
+      margin: 1em 0 3em;
+      padding: 15px;
+      position: relative;
+  }
+  .triangle-isosceles.right::after {
+      border-color: transparent #f9f9f9;
+      border-width: 10px 0 10px 50px;
+      bottom: auto;
+      left: auto;
+      right: -50px;
+      top: 16px;
+  }
+
+  .triangle-isosceles.right {
+      background: #f9f9f9 none repeat scroll 0 0;
+      margin-right: 50px;
+  }
+  .subscribe{
+    background-color: #7cc576;
+    color:white;
+    height: 220px;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .line:after
+   {display:none;
+  }
+  .logos{
+    height: 250px;
+  }
+  .contact{
+
+    height: 750px;
+  }
+  .left{
+    text-align: left;
+
+  }
+  .footer{
+
+    height: 400px;
+
+  }
+  .footer-in{
+    text-align: center;
+
+  }
+
+
 }
