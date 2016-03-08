@@ -241,7 +241,7 @@ left: 0;
 .footer{
   margin-top: 0px;
   padding-top: 0px;
-  height: 50px;
+  height: 10px;
 
 }
 .footer-in{
@@ -304,15 +304,30 @@ padding-bottom: 50px;
   }
 
   .relax-right{
-      height: 450px;
+      height: 400px;
       color: white;
   }
   .relax-left{
-      height: 450px;
+    display:none;
   }
-
+  .sub-relax-right{
+    padding-left:3%;
+    padding-top: 3%;
+  }
+  .relax-right button{
+    font-size: 15px;
+    padding: 1.5%;
+  }
   .culture{
-  height: 350px;
+  height: 800px;
+  }
+  .latest-right{
+      display:none;
+
+  }
+  .line:after
+   {
+    display: none;
   }
   .clients{
 height:500px;
@@ -322,9 +337,10 @@ height:500px;
   }
   .logos{
 padding-bottom: 50px;
+height: 250px;
   }
   .contact{
-    height: 350px;
+    height: 750px;
   }
   .left{
     text-align: left;
@@ -334,10 +350,9 @@ padding-bottom: 50px;
   .footer{
     margin: 0px 0px 0px 30px;
     padding: 0px;
-    height: 50px;
   }
   .footer-in{
-    text-align: right;
+    text-align:center;
     margin: 0px;
     padding: 0px;
   }
@@ -347,6 +362,8 @@ padding-bottom: 50px;
 
 
   .nav{
+  
+    z-index: 333;
   color: white;
 background-color: red;
   }
