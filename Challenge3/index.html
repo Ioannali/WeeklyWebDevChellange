@@ -7,8 +7,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="style/normalize.css">
 <link rel="stylesheet" type="text/css" href="style/grid.css">
-<link rel="stylesheet" type='text/css' href="style/style.css"
-
+<link rel="stylesheet" type='text/css' href="style/style.css">
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
 </head>
   <body>
     <header class="row">
@@ -22,8 +22,9 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </header>
 
+    </header>
+  <button class="menu-button" id="menu-button">MENU</button>
     <article class="top">
       <div class="top-text">
        <h1>CREATIVE DIGITAL</br> SOLUTIONS</h1>
@@ -210,5 +211,14 @@
           </div>
       </div>
     </footer>
+
+    <script>
+    $(document).ready(function(){
+      $(".menu-button").click(function(){
+        console.log("ok");
+          $(".nav").slideToggle("slow").toggleClass("visible");
+      })});
+    </script>
+
   </body>
 </html>
