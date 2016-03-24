@@ -1,3 +1,47 @@
-.dupa{
+
+.navbar-default{
+	background-color: $menu-color;
+	background-image:none;
+	box-shadow:none;
+	border:none;
+
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-brand {
+  background-image: none;
+  box-shadow: none;
+  background-color: transparent;
+  color:$main-font-color;
+}
+.navbar-default .navbar-nav > li > a:first-letter {
+ text-transform:uppercase;
+}
+
+.bold-text{
+  font-weight: 900;
+}
+
+
+.main{
+
+  background-image: url("../img/work.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+z-index: -1;
+position: fixed;
+  margin-top: 50px;
   background-color: $primary-bg-color;
+  color: $main-font-color;
+  width: 100%;
+  height:460px;
+  filter:brightness(0.2);
+}
+.main h1{
+z-index: 1;
+  margin-top: 20vh;
+}
+.main button{
+  margin-top: 9vh;
+
 }
