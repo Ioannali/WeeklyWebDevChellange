@@ -1,0 +1,13 @@
+.portfolio-header{
+  background-image: url("../img/touch.jpg");
+  background-position: center left;;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 420px;
+  color: $main-font-color;
+  text-align: center;
+}
+.portfolio-header h1{
+    font-size: 48px;
+    margin-top: 30vh;
+}

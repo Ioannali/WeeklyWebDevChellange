@@ -3,5 +3,13 @@
   color: $main-font-color;
   padding: 15px 40px;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+.cta-button:hover{
+
+  opacity: 0.8;
+}
+.cta-button-small{
+  padding: 10px 40px;
 }
