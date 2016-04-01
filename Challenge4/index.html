@@ -52,7 +52,7 @@
 			<img src="img/header-image.jpg" class="header-image">
 		</div>
 	</section>
-		<div class='container-fluid sub-header'>
+		<section class='container-fluid sub-header'>
 				<div class='col-md-12 sub-header-title'>
 					<h1 class="bold-text">Our services</h1>
 					<h4>our awesome services</h4>
@@ -88,16 +88,54 @@
 					<button class="cta-button cta-button-small">More</button>
 				</div>
 		</div>
-</div>
-<div class='container-fluid portfolio-header'>
-<h1>Our great works</h1>
-<h4>come from awesome imaginator</h4>
-</div>
+</section>
+<section class='container-fluid portfolio-header'>
+	<div class="port-head">
+		<h1>Our great works</h1>
+		<h4>come from awesome imaginator</h4>
+	</div>
+</section>
 
+<section class="container-fluid portfolio">
+
+		<div class="col-md-12 portfolio-title">
+			<h2>Portfolio</h2>
+			<p>our awesom works</p>
+			<img src="img/dark-line.png">
+		</div>
+		<div class="container">
+			<div>
+		<div class="col-md-4 portfolio-item portfolio-item-one"><p class="text">szve fcasa avsdd</p></div>
+		<div class="col-md-4 portfolio-item portfolio-item-two"></div>
+		<div class="col-md-4 portfolio-item portfolio-item-three"></div>
+	</div>
+	<div>
+		<div class="col-md-4"><img src="img/portfolio6.jpg" class=" portfolio-item"></div>
+		<div class="col-md-4"><img src="img/portfolio7.jpg" class=" portfolio-item"></div>
+		<div class="col-md-4"><img src="img/portfolio8.jpg" class=" portfolio-item"></div>
+
+	</div>
+	</div>
+	<div class="col-md-12 portfolio-title">
+		<h2>What Our Happy Costumers Say</h2>
+		<p>lorem ipsus Lorem ipsum dolor.</p>
+		<img src="img/dark-line.png">
+	</div>
+</section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script>
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".portfolio-item-one").hover(function(){
+		$(".portfolio-item-one").toggleClass("two");
+		$(".text").toggleClass("text-op");
+	})
+});
+
+</script>
 </body>
 
 </html>
