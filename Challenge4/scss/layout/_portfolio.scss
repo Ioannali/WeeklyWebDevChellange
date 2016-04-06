@@ -21,14 +21,15 @@
   text-align: center;
   position: relative;
   color: $main-font-color;
+
+  & h1{
+    font-size: 48px;
+    margin-top: 0;
+    padding-top: 30vh;
 }
-.port-head h1{
-  font-size: 48px;
-  margin-top: 0;
-  padding-top: 30vh;
 }
 .portfolio{
-  height: 900px;
+  min-height: 900px;
   text-align: center;
 }
 .portfolio-title{
@@ -36,7 +37,7 @@
   margin-bottom: 10vh;
 }
 .portfolio-item  {
-  width:320px;
+
   margin-top:5vh;
   margin-left: 5vh;
   background-color: $primary-bg-color;
@@ -76,10 +77,10 @@ width: 370px;
 .text{
   color:white;
   opacity: 0;
+    & h3,
+    &img{
+      padding: 3vh;
 }
-.text h3,
-.text img{
-  padding: 3vh;
 }
 .text-hovered{
   opacity:1;

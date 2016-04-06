@@ -19,7 +19,8 @@
   font-weight: 900; }
 
 .main-header {
-  background-image: url("../img/work.jpg");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/work.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/work.jpg");
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 50px;
@@ -30,10 +31,10 @@
           filter: brightness(0.9); }
 
 .main-header h1 {
-  margin-top: 20vh; }
+  padding-top: 150px; }
 
 .main-header button {
-  margin-top: 9vh; }
+  margin-top: 50px; }
 
 .header-image {
   margin-top: 30px;
@@ -75,14 +76,13 @@
   text-align: center;
   position: relative;
   color: #ffffff; }
-
-.port-head h1 {
-  font-size: 48px;
-  margin-top: 0;
-  padding-top: 30vh; }
+  .port-head h1 {
+    font-size: 48px;
+    margin-top: 0;
+    padding-top: 30vh; }
 
 .portfolio {
-  height: 900px;
+  min-height: 900px;
   text-align: center; }
 
 .portfolio-title {
@@ -90,7 +90,6 @@
   margin-bottom: 10vh; }
 
 .portfolio-item {
-  width: 320px;
   margin-top: 5vh;
   margin-left: 5vh;
   background-color: #475a85;
@@ -129,16 +128,15 @@
 .text {
   color: white;
   opacity: 0; }
-
-.text h3,
-.text img {
-  padding: 3vh; }
+  .text h3, .textimg {
+    padding: 3vh; }
 
 .text-hovered {
   opacity: 1; }
 
 .testimonials {
-  height: 250px; }
+  min-height: 250px;
+  color: #323232; }
 
 .testimonials-title {
   margin-top: 10vh;
@@ -146,7 +144,7 @@
   text-align: center; }
 
 .testimonials-photo {
-  background-image: url("../img/4.png"); }
+  ackground-image: url("../img/4.png"); }
 
 .cta-button {
   background-color: #ea5b58;
@@ -156,17 +154,16 @@
   border-radius: 5px;
   -webkit-filter: drop-shadow(3px 3px 5px #774433);
           filter: drop-shadow(3px 3px 5px #774433); }
-
-.cta-button:hover {
-  background-color: #ff1744; }
-
-.cta-button:active {
-  background-color: #b71c1c; }
+  .cta-button:hover {
+    background-color: #ff1744; }
+  .cta-button:active {
+    background-color: #b71c1c; }
 
 .cta-button-small {
   padding: 10px 40px; }
 
 .rounded-photo {
-  border-radius: 50%; }
+  border-radius: 50%;
+  color: #323232; }
 
 /*# sourceMappingURL=main.css.map */

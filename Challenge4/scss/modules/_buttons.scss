@@ -4,15 +4,14 @@
   padding: 15px 40px;
   border: none;
   border-radius: 5px;
+  filter: drop-shadow(3px 3px 5px #774433);
 
-filter: drop-shadow(3px 3px 5px #774433);
-}
-
-.cta-button:hover{
+&:hover{
 background-color: #ff1744;
 }
-.cta-button:active{
+&:active{
 background-color:#b71c1c;
+}
 }
 .cta-button-small{
   padding: 10px 40px;
