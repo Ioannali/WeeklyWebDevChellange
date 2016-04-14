@@ -1,4 +1,10 @@
 .rounded-photo{
   border-radius: 50%;
+}
+.item{
+  max-height: 250px;
+}
+.item p{
+
   color: $secondary-font-color;
 }

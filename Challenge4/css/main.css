@@ -135,8 +135,7 @@
   opacity: 1; }
 
 .testimonials {
-  min-height: 250px;
-  color: #323232; }
+  max-height: 250px; }
 
 .testimonials-title {
   margin-top: 10vh;
@@ -163,7 +162,12 @@
   padding: 10px 40px; }
 
 .rounded-photo {
-  border-radius: 50%;
+  border-radius: 50%; }
+
+.item {
+  max-height: 250px; }
+
+.item p {
   color: #323232; }
 
 /*# sourceMappingURL=main.css.map */
