@@ -12,7 +12,7 @@ padding: 0px;
 margin-top: -200px;
 }
 .contact-title{
-	  margin-top: 70px;
+	  padding-top: 70px;
 		margin-bottom: 10px;
 }
 .contact{
@@ -50,6 +50,7 @@ form {
     padding: 1em;
     padding-right: 10%;
 }
+
 input, textarea {
 line-height: 40px;
     -moz-box-sizing: border-box;
@@ -61,7 +62,8 @@ line-height: 40px;
 }
 input{
   display: inline-block;
-  width: 49%;
+  width: 47%;
+
 }
 textarea{
   display: block;
