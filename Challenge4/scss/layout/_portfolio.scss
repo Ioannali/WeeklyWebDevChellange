@@ -10,13 +10,14 @@
   background-position: center left;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 420px;
+  min-height: 420px;
   filter: grayscale(20%)  hue-rotate(20deg);
   -webkit-filter: grayscale(20%) hue-rotate(20deg);
 }
 .portfolio-header{
     height: 420px;
 }
+
 .port-head{
   text-align: center;
   position: relative;
@@ -25,7 +26,7 @@
   & h1{
     font-size: 48px;
     margin-top: 0;
-    padding-top: 30vh;
+    padding-top: 190px;
 }
 }
 .portfolio{
@@ -38,8 +39,8 @@
 }
 .portfolio-item  {
 
-  margin-top:5vh;
-  margin-left: 5vh;
+  margin-top:20px;
+  margin-left: 20px;
   background-color: $primary-bg-color;
   background-size: cover;
 height: 290px;

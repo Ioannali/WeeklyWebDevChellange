@@ -1,10 +1,29 @@
+
+.carousel {
+  max-height: 350px;
+}
+
 .rounded-photo{
   border-radius: 50%;
 }
 .item{
-  max-height: 250px;
-}
-.item p{
-
+  max-height: 350px;
+& p,
+& i,
+& li {
   color: $secondary-font-color;
+}
+}
+.carousel-control.right,
+.carousel-control.left {
+background-image:none;
+background-color: transparent;
+}
+.carousel-indicators li{
+    opacity: 1;
+    border: 1px solid black;
+}
+.carousel-indicators li.active{
+  background-color: $secondary-font-color;
+  border: 1px solid black;
 }
