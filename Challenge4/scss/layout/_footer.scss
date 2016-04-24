@@ -48,17 +48,27 @@ form {
     text-align: left;
     margin-top:60px;
     padding: 1em;
-    padding-right: 10%;
+    padding-right: 8%;
+}
+.social-media{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     align-content: stretch;
+     align-items: flex-start;
+}
+.social-media ul{
+  padding-left: 0px;
 }
 .social-media-item{
   list-style: none;
-  display: inline;
-  display: flex;
-  justify-content: space-between;
-   align-items: center;
-   flex-direction:row;
+  display: inline-block;
    width: 50px;
- height: 50px;
+   height: 50px;
+}
+.social-media-item i:hover{
+  color:$footer-font-color;
 }
 input, textarea {
 line-height: 40px;
@@ -71,7 +81,7 @@ line-height: 40px;
 }
 input{
   display: inline-block;
-  width: 47%;
+  width: 46%;
 
 }
 textarea{

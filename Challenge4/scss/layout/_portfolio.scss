@@ -3,22 +3,21 @@
 .portfolio-header:before{
   content:"";
   position: absolute;
-    left: 0;
-    right: 0;
-   display: block;
+  left: 0;
+  right: 0;
+  display: block;
   background-image: url("../img/touch.jpg");
   background-position: center left;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 420px;
-width:100%;
+  width:100%;
   filter: grayscale(20%)  hue-rotate(20deg);
   -webkit-filter: grayscale(20%) hue-rotate(20deg);
 }
 .portfolio-header{
     height: 420px;
 }
-
 .port-head{
   text-align: center;
   position: relative;
@@ -39,8 +38,8 @@ width:100%;
   margin-bottom: 10vh;
 }
 .portfolio-item  {
-  margin-top:20px;
-  margin-left: 20px;
+  margin-top:40px;
+  margin-left: 40px;
   background-color: $primary-bg-color;
   background-size: cover;
 height: 290px;
