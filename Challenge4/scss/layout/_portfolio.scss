@@ -11,7 +11,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 420px;
-  width:100%;
+width:100%;
   filter: grayscale(20%)  hue-rotate(20deg);
   -webkit-filter: grayscale(20%) hue-rotate(20deg);
 }
@@ -39,13 +39,12 @@
   margin-bottom: 10vh;
 }
 .portfolio-item  {
-  margin-top:40px;
-  margin-left: 40px;
+  margin-top:20px;
+  margin-left: 20px;
   background-color: $primary-bg-color;
   background-size: cover;
 height: 290px;
-
-width:100%;
+width: 370px;
 }
 
 .portfolio-item-one {
