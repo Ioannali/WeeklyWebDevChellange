@@ -1,0 +1,54 @@
+body{
+height:100vh;
+}
+
+.reh-profile{
+font-family:$primary-font-family;
+background: #001b66; background:-webkit-linear-gradient(top, #001b66, #00b4c7); background: -moz-linear-gradient(top, #001b66, #00b4c7); background: -ms-linear-gradient(top, #001b66, #00b4c7); background: -o-linear-gradient(top, #001b66, #00b4c7); background: linear-gradient(to bottom, #001b66, #00b4c7);
+color:$main-font-color;
+padding-top:10px;
+height: calc(95vh - 50px);
+}
+.qr{
+position:absolute;
+top:20px;
+left:210px;
+width:60px;
+}
+
+@media(max-width:480px){
+.qr{
+top:230px;
+left:-60px;
+}
+}
+.rounded-photo{
+border-radius:50%;
+display:inline-block;
+}
+.reh-profile-desc{
+padding-top:20px;
+min-height:250px;
+border-radius: 5px;
+box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.reh-contact a{
+text-decoration:none;
+color:#99b4ff;
+}
+.reh-map{
+margin: 1em auto;
+width:100%;
+border-radius:2px;
+border: 1px solid white;
+background:red;
+}
+.contact{
+ padding-top:25px;
+}
+address{
+ font-size:24px;
+ margin:0px;
+ padding-top:20px;
+}
