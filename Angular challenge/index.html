@@ -13,7 +13,7 @@
 <body ng-controller="StoreController as store">
     <div ng-repeat="product in store.products">
       <h1>{{product.name}}</h1>
-      <h2>${{product.price}}</h2>
+      <h2>{{product.price | currency}}</h2>
       <p>{{product.desc}}</p>
 			<button ng-show="product.canPurchase">Add to cart</button>
     </div>
