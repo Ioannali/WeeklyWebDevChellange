@@ -21,3 +21,6 @@ var gems = [
 }
 ];
 })();
+app.controller("PanelController", function(){
+this.tab = 1;
+});
